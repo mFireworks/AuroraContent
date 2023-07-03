@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Owlfolk</name>
+		<description></description>
+		<author url="https://www.dandwiki.com/wiki/Owlfolk_(5e_Race)">DnD 5E Homebrew Wiki</author>
+		<update version="0.2.7">
+			<file name="race-owlfolk.xml" url="" />
+		</update>
+	</info>
+
+    <element name="Owlfolk" type="Race" source="VC Adventures" id="ID_RACE_OWLFOLK">
+        <description>
+            <p class="flavor">The sight of an owlfolk is mysterious and intriguing. Their legs and arms are both equipped with talons meant to rend flesh. The owl head able to swivel 360 degrees and unreadable expression. Owlfolk are always quite the spectacle.</p>
+
+            <h4>PHYSICAL DESCRIPTION</h4>
+            <p>Owlfolk resemble anthropomorphic owls, with humanoid bodies and limbs. Their legs retain the angular bend which raptors have, as well as a foot full of razor sharp talons. Their wing ends have human prehensile hands, making them different from how aarakocra have wings separate from their arms. Owlfolk have developed longer legs and thicker bodies, where the ruffage is fluffier. This development has made their wings proportionately smaller, unable to carry their weight. They have developed good running skills, using their wings as enhancers of speed instead. Full grown owlfolk grow lengths of wingspans and are eventually able to fly.</p>
+
+            <h4>HISTORY</h4>
+            <p>The owlfolk are a race of peoples from the Elemental Plane of Air that are speculated to have migrated originally from Frostfell. Their polar cousins retain more of their arctic qualities and pristine feathers. These normal owlfolk are colored with spotted feathers of browns and speckles. They had clashed with aarakocra over territory before, but this proved futile in their part due to aarakocra having aerial advantages. Owlfolk are thus regarded as kenku are in the eyes of those who can fly. In migrating to the Material Realm, owlfolk looked for a more grounded life to escape their inferiority compared to beings of the air. It is not entirely clear what made them evolve to lose their wings. Some believe it a mistake of the deity which created them, or perhaps an adaptation which pushed for them to develop wings only later in life.</p>
+
+            <h4>SOCIETY</h4>
+            <p>Owlfolk prefer to be efficient and intelligent in their designs and machinations. They are ruled by a leader with the title of Talon Lord, who consults a Council of Feathers. They are a society of wizened hunters, essentially. Older owlfolk who can fly usually accompany fledglings on the ground to catch what they allow to escape. They put these skills to work in their villages usually built within the confines of pine forests and chilly alpines, preferring colder weather. The virtues of efficiency and knowledge allow for them to be excellent trappers and procurers of the best game, which they sell in trade to others. Owlfolk are fairly peaceful, and they are social enough with many other races within proximity. They do not have any grand world net of connections however.</p>
+
+            <h4>OWLFOLK NAMES</h4>
+            <p>Males are commonly named after body parts that stand out at birth or stood out in their parents, while females are usually given names based on actions.</p>
+            <p class="indent">Male: Beak, Gizzard, Oblique, Plume, Talon, Thigh, Tuft</p>
+            <p class="indent">Female: Bewilder, Dive, Endeavor, Gust, Screech, Sing, Soar, Whet</p>
+
+            <h4>OWLFOLK TRAITS</h4>
+            <p>Wise humanoids with plumage, claws, wings, and other features reminiscent of owls</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 2, and your Intelligence score increases by 1.<br />
+                <span class="feature">Age.</span>They typically reach maturity at 10 and rarely live beyond two centuries.<br />
+                <span class="feature">Alignment.</span>Owlfolk have a tendency towards law.<br />
+                <span class="feature">Size.</span>Owlfolk are between 6 and 8 feet in height, but quite lightweight for their size. Your size is Medium.<br />
+                <span class="feature">Speed.</span>Your base walking speed is 35 feet.<br />
+                <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+                <span class="feature">Predator Senses.</span>Like owls, you can see very well and spin your head about to see very well. You have advantage in Wisdom (Perception) checks using your sight.<br/>
+                <span class="feature">Bone Eater.</span>Owls have tough digestive systems to process bones and all animal parts. You are immune to diseases or being poisoned by food or drink.<br/>
+                <span class="feature">Light Feathers.</span>You will eventually gain flight. But for the meanwhile, your feathers still provide marvelous muffling for speed. You are proficient in the Stealth skill. Starting 5th level, you gain a flying speed of 30 feet. To use this speed, you must not be wearing heavy armor.<br/>
+                <span class="feature">Talons.</span>Your talons are sharp and lethal natural weapons for unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your strength modifier.<br/>
+                <span class="feature">Languages.</span>You can speak, read and write in Common, and one other language of your choice.<br />
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Beak, Gizzard, Oblique, Plume, Talon, Thigh, Tuft</set>
+            <set name="names" type="female">Bewilder, Dive, Endeavor, Gust, Screech, Sing, Soar, Whet</set>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">7'</set>
+            <set name="weight" modifier="1d4">90 lb.</set>
+        </setters>
+        <rules>
+            <stat name="wisdom" value="2"/>
+            <stat name="intelligence" value="1"/>
+            <stat name="innate speed" value="35" bonus="base"/>
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_PREDATOR_SENSES" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BONE_EATER" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIGHT_FEATHERS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_TALONS" />
+        </rules>
+    </element>
+  
+    <element name="Predator Senses" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_PREDATOR_SENSES">
+        <description>
+            <p>Like owls, you can see very well and spin your head about to see very well. You have advantage in Wisdom (Perception) checks using your sight.</p>
+        </description>
+        <sheet display="false">
+            <description>Like owls, you can see very well and spin your head about to see very well. You have advantage in Wisdom (Perception) checks using your sight.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+    </element>
+    <element name="Bone Eater" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_BONE_EATER">
+        <description>
+            <p>Owls have tough digestive systems to process bones and all animal parts. You are immune to diseases or being poisoned by food or drink.</p>
+        </description>
+        <sheet>
+            <description>Owls have tough digestive systems to process bones and all animal parts. You are immune to diseases or being poisoned by food or drink.</description>
+        </sheet>
+    </element>
+    <element name="Light Feathers" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_LIGHT_FEATHERS">
+        <description>
+            <p>You will eventually gain flight. But for the meanwhile, your feathers still provide marvelous muffling for speed. You are proficient in the Stealth skill. Starting 5th level, you gain a flying speed of 30 feet. To use this speed, you must not be wearing heavy armor.</p>
+        </description>
+        <sheet>
+            <description>You will eventually gain flight. But for the meanwhile, your feathers still provide marvelous muffling for speed. You are proficient in the Stealth skill. Starting 5th level, you gain a flying speed of 30 feet. To use this speed, you must not be wearing heavy armor.</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:fly" value="30" level="5" equipped="![armor:heavy]"/>
+        </rules>
+    </element>
+        <element name="Talons" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_TALONS">
+        <description>
+            <p>Your talons are sharp and lethal natural weapons for unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4+{{strength:modifier}}.</p>
+        </description>
+        <sheet>
+            <description>Your talons are sharp and lethal natural weapons for unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4+{{strength:modifier}}.</description>
+        </sheet>
+    </element>
+</elements>

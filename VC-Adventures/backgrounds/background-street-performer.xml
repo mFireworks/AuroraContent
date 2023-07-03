@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Street Performer</name>
+		<description>Street Performer Background</description>
+		<author>Fireworks</author>
+		<update version="0.0.1">
+			<file name="background-street-performer.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Street Performer" type="Background" source="VC Adventures" id="ID_BACKGROUND_STREET_PERFORMER">
+		<description>
+			<p>You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You learned that those above you enjoyed a good show, and performed different routines on the streets to earn a meger wage to survive. Many say your arts are one-of-a-kind, but you know just what to do for them to open their wallets.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Performance, Slight of Hand</li>
+				<li><strong>Tool Proficiencies:</strong> Disguise kit, and one type of musical instrument</li>
+				<li><strong>Equipment:</strong> A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a musical instrument (one of your choice), a set of common clothes, and a belt pouch containing 15 gp</li>
+			</ul>
+			<h5>ENTERTAINER ROUTINES</h5>
+			<p>To keep the money coming, you got to be versatile. Spicing up every performance with a variety of different routines tends to wow the crowd. Choose one to three routines or roll on the table below to define your expertise as an entertainer.</p>
+			<table>
+				<thead>
+					<tr><td class="col-10">d10</td><td>Entertainer Routine</td></tr>
+				</thead>
+				<tr><td>1</td><td>Actor</td></tr>
+				<tr><td>2</td><td>Dancer</td></tr>
+				<tr><td>3</td><td>Fire-eater</td></tr>
+				<tr><td>4</td><td>Jester</td></tr>
+				<tr><td>5</td><td>Juggler</td></tr>
+				<tr><td>6</td><td>Instrumentalist</td></tr>
+				<tr><td>7</td><td>Poet</td></tr>
+				<tr><td>8</td><td>Singer</td></tr>
+				<tr><td>9</td><td>Storyteller</td></tr>
+				<tr><td>10</td><td>Tumbler</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="short">Performance, Slight of Hand, Disguise kit, Instrument</set>
+		</setters>
+		<rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<select type="Proficiency" name="Musical Intrument (Entertainer)" supports="Musical Instrument" />
+			<select name="Entertainer Routines" type="List" optional="true">
+				<item id="1">Actor</item>
+				<item id="2">Dancer</item>
+				<item id="3">Fire-eater</item>
+				<item id="4">Jester</item>
+				<item id="5">Juggler</item>
+				<item id="6">Instrumentalist</item>
+				<item id="7">Poet</item>
+				<item id="8">Singer</item>
+				<item id="9">Storyteller</item>
+				<item id="10">Tumbler</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">I know a story relevant to almost every situation.</item>
+				<item id="2">Whenever I come to a new place, I collect local rumors and spread gossip.</item>
+				<item id="3">I’m a hopeless romantic, always searching for that “special someone.”</item>
+				<item id="4">Nobody stays angry at me or around me for long, since I can defuse any amount tension.</item>
+				<item id="5">I eat like a pig and have bad manners.</item>
+				<item id="6">I think anyone who’s nice to me is hiding evil intent.</item>
+				<item id="7">I don’t like to bathe.</item>
+				<item id="8">I bluntly say what other people are hinting at or hiding.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Beauty. When I perform, I make the world better than it was. (Good)</item>
+				<item id="2">Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are. (Lawful)</item>
+				<item id="3">Creativity. The world is in need of new ideas and bold action. (Chaotic)</item>
+				<item id="4">Retribution. The rich need to be shown what life and death are like in the gutters. (Evil)</item>
+				<item id="5">People. I help the people who help me—that’s what keeps us alive. (Neutral)</item>
+				<item id="6">Aspiration. I’m going to prove that I’m worthy of a better life.</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">My instrument is my most treasured possession, and it reminds me of someone I love.</item>
+				<item id="2">Someone stole my precious instrument, and someday I’ll get it back.</item>
+				<item id="3">I want to be famous, whatever it takes.</item>
+				<item id="4">I owe a debt I can never repay to the person who took pity on me.</item>
+				<item id="5">I escaped my life of poverty by robbing an important person, and I’m wanted for it.</item>
+				<item id="6">No one else should have to endure the hardships I’ve been through.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">I’ll do anything to win fame and renown.</item>
+				<item id="2">I’m a sucker for a pretty face.</item>
+				<item id="3">A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.</item>
+				<item id="4">I’d rather kill someone in their sleep then fight fair.</item>
+				<item id="5">It’s not stealing if I need it more than someone else.</item>
+				<item id="6">People who can’t take care of themselves get what they deserve.</item>
+			</select>
+		</rules>
+	</element>
+</elements>

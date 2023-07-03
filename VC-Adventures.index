@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>VC Adventures</name>
+		<description>Special content for Firework's VC Adventures Campaign</description>
+		<author>Fireworks</author>
+		<update version="0.0.1">
+			<file name="VC-Adventures.index" url=""/>
+		</update>
+	</info>
+	<files>
+		<file name="VC-Adventures.index" url="" />
+	</files>
+</index>
