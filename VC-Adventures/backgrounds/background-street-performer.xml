@@ -5,7 +5,7 @@
 		<description>Street Performer Background</description>
 		<author>Fireworks</author>
 		<update version="0.0.1">
-			<file name="background-street-performer.xml" url="" />
+			<file name="background-street-performer.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/backgrounds/background-street-performer.xml" />
 		</update>
 	</info>
 

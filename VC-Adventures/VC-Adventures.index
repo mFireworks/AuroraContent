@@ -5,33 +5,21 @@
 		<description>Special content for Firework's VC Adventures Campaign</description>
 		<author>Fireworks</author>
 		<update version="0.0.1">
-			<file name="VC-Adventures.index" url="" />
+			<file name="VC-Adventures.index" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/VC-Adventures.index" />
 		</update>
 	</info>
 	<files>	
 		<!-- races -->
-		<file name="race-owlfolk.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/races/race-dragonborn.xml" />
+		<file name="race-owlfolk.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-owlfolk.xml" />
 
 		<!-- classes -->
 
-
 		<!-- backgrounds -->		
-		<file name="background-acolyte.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-acolyte.xml" />
+		<file name="background-acolyte.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/backgrounds/background-street-performer.xml" />
 
 		<!-- items -->
-		<file name="items-armor.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-armor.xml" />
-		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-weapons.xml" />
-		<file name="items-gear.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-gear.xml" />
-		<file name="items-packs.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-packs.xml" />
-		<file name="items-instrument.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-instrument.xml" />
-		<file name="items-tools.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-tools.xml" />
-		<file name="items-mounts.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-mounts.xml" />
 
 		<!-- misc -->
-		<file name="languages.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/languages.xml" />
-		<file name="feats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/feats.xml" />
-		<file name="spells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/spells.xml" />
-		<file name="deities.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/deities.xml" />
-		<file name="companions.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/companions.xml" />
+
 	</files>
 </index>
