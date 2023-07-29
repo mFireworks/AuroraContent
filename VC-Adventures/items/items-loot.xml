@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Loot Items</name>
+        <update version="0.0.1">
+            <file name="items-loot.xml" url="" />
+        </update>
+    </info>
+
+    <element name="Deer Skull" type="Loot" source="VC Adventures" id="ID_VC_ADVENTURES_DEER_SKULL">
+        <description>
+            <p>The skull of a deer</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="8">8 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+</elements>

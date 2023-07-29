@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Food Items</name>
+        <update version="0.0.1">
+            <file name="items-food.xml" url="" />
+        </update>
+    </info>
+
+    <element name="Deer Jerky (1 Day)" type="Food" source="VC Adventures" id="ID_VC_ADVENTURES_DEER_JERKY">
+        <description>
+            <p>Strips of dehydrated venison</p>
+        </description>
+        <setters>
+            <set name="category">Food</set>
+            <set name="cost" currency="sp">10</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+</elements>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Crafted Items</name>
+        <update version="0.0.1">
+            <file name="items-crafted.xml" url="" />
+        </update>
+    </info>
+
+    <element name="Skeleton Necklace" type="Crafted" source="VC Adventures" id="ID_VC_ADVENTURES_SKELETON_NECKLACE">
+        <description>
+            <p>A necklace composed of various different bones hanging from the main string.</p>
+        </description>
+        <setters>
+            <set name="category">Crafted</set>
+            <set name="cost" currency="gp">1</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+    <element name="Bone Powder" type="Crafted" source="VC Adventures" id="ID_VC_ADVENTURES_BONE_POWDER">
+        <description>
+            <p>Powder in a small vial composed of crushed up bones</p>
+        </description>
+        <setters>
+            <set name="category">Crafted</set>
+            <set name="cost" currency="cp">5</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+</elements>
