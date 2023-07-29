@@ -7,7 +7,7 @@
         </update>
     </info>
 
-    <element name="Deer Jerky (1 Day)" type="Food" source="VC Adventures" id="ID_VC_ADVENTURES_DEER_JERKY">
+    <element name="Deer Jerky (1 Day)" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_DEER_JERKY">
         <description>
             <p>Strips of dehydrated venison</p>
         </description>

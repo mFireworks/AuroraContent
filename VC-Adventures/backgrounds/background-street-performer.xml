@@ -34,6 +34,8 @@
 				<tr><td>9</td><td>Storyteller</td></tr>
 				<tr><td>10</td><td>Tumbler</td></tr>
 			</table>
+			<h5>Feature: In The Know</h5>
+			<p>With your connections to various inns, you hear about the secret patterns and flow to cities and have learned to find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.</p>
 		</description>
 		<setters>
 			<set name="short">Performance, Slight of Hand, Disguise kit, Instrument</set>

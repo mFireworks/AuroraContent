@@ -7,7 +7,7 @@
         </update>
     </info>
 
-    <element name="Skeleton Necklace" type="Crafted" source="VC Adventures" id="ID_VC_ADVENTURES_SKELETON_NECKLACE">
+    <element name="Skeleton Necklace" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_SKELETON_NECKLACE">
         <description>
             <p>A necklace composed of various different bones hanging from the main string.</p>
         </description>
@@ -18,7 +18,7 @@
             <set name="rarity">Common</set>
         </setters>
     </element>
-    <element name="Bone Powder" type="Crafted" source="VC Adventures" id="ID_VC_ADVENTURES_BONE_POWDER">
+    <element name="Bone Powder" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_BONE_POWDER">
         <description>
             <p>Powder in a small vial composed of crushed up bones</p>
         </description>
