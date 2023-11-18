@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Potions</name>
+        <name>Extra Potions</name>
         <update version="0.0.1">
             <file name="items-potions.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-potions.xml" />
         </update>
     </info>
 
-    <element name="Lesser Potion of Healing" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_LESSER_HEALING_POTION">
+    <element name="Potion of Lesser Healing" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_LESSER_HEALING_POTION">
         <description>
             <p>A red liquid contained in a glass bottle. It has a sweet scent and gives you a feeling of vitality. Upon drinking, heal by 1D4+1</p>
         </description>
