@@ -12,7 +12,7 @@
             <p>A red liquid contained in a glass bottle. It has a sweet scent and gives you a feeling of vitality. Upon drinking, heal by 1D4+1</p>
         </description>
         <setters>
-            <set name="category">Potion</set>
+            <set name="category">Potions</set>
             <set name="cost" currency="gp">5</set>
             <set name="weight" lb="8">0 lb.</set>
             <set name="rarity">Common</set>
