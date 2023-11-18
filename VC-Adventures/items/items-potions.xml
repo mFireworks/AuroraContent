@@ -7,6 +7,17 @@
         </update>
     </info>
 
+    <element name="Unknown Potion" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_UNKNOWN_POTION">
+        <description>
+            <p>A potion that has unknown properties</p>
+        </description>
+        <setters>
+            <set name="category">Potions</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="8">0 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
     <element name="Potion of Lesser Healing" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_LESSER_HEALING_POTION">
         <description>
             <p>A red liquid contained in a glass bottle. It has a sweet scent and gives you a feeling of vitality. Upon drinking, heal by 1D4+1</p>
