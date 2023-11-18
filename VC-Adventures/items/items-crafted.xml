@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Crafted Items</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="items-crafted.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-crafted.xml" />
         </update>
     </info>
@@ -21,6 +21,17 @@
     <element name="Bone Powder" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_BONE_POWDER">
         <description>
             <p>Powder in a small vial composed of crushed up bones</p>
+        </description>
+        <setters>
+            <set name="category">Crafted</set>
+            <set name="cost" currency="cp">5</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+    <element name="Magic Silk" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_MAGIC_SILK">
+        <description>
+            <p>A roll of silk imbuded with magic in Waveserine. It seems to be more durable than typical silk.</p>
         </description>
         <setters>
             <set name="category">Crafted</set>
