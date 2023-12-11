@@ -18,4 +18,15 @@
             <set name="rarity">Common</set>
         </setters>
     </element>
+        <element name="Bag of Bones" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_DEER_SKULL">
+        <description>
+            <p>A bag filled with assorted bones of various small animals.</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="8">0.25 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
 </elements>
