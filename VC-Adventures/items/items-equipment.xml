@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Custom Equipment</name>
+        <update version="0.0.4">
+            <file name="items-equipment.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-equipment.xml" />
+        </update>
+    </info>
+
+    <element name="Greatsword+1" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_GREATSWORD_PLUS">
+        <description>
+            <p>A finely crafted Greatsword, with engravings of an expert craftsman.</p>
+        </description>
+        <setters>
+            <set name="category">Custom Equipment</set>
+            <set name="cost" currency="gp">75</set>
+            <set name="weight" lb="0">8 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d12+1</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Fire Wand" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_FIRE_WAND">
+        <description>
+            <p>A silver wand with a red gemstone at the end of it. When equipped, any casted fire-based spells with it will add +1 to damage.</p>
+        </description>
+        <setters>
+            <set name="category">Custom Equipment</set>
+            <set name="cost" currency="gp">100</set>
+            <set name="weight" lb="0">4 lb.</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
+</elements>

@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Loot Items</name>
-        <update version="0.0.1">
+        <update version="0.0.4">
             <file name="items-loot.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-loot.xml" />
         </update>
     </info>
@@ -18,7 +18,7 @@
             <set name="rarity">Common</set>
         </setters>
     </element>
-        <element name="Bag of Bones" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_DEER_SKULL">
+    <element name="Bag of Bones" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_DEER_SKULL">
         <description>
             <p>A bag filled with assorted bones of various small animals.</p>
         </description>
@@ -29,4 +29,27 @@
             <set name="rarity">Common</set>
         </setters>
     </element>
+    <element name="Spider Fang" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_SPIDER_FANG">
+        <description>
+            <p>A large fang from a giant spider. A bit bigger than a human finger, has a small hole at the end of it.</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="8">0.01 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+    <element name="Spider Poison Sac" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_SPIDER_POISON_SAC">
+        <description>
+            <p>The poison gland from a giant spider. Still has some of the spider's toxins within it.</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="8">0.01 lb.</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+    
 </elements>
