@@ -18,7 +18,7 @@
             <set name="rarity">Common</set>
         </setters>
     </element>
-    <element name="Bag of Bones" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_DEER_SKULL">
+    <element name="Bag of Bones" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_BAG_OF_BONES">
         <description>
             <p>A bag filled with assorted bones of various small animals.</p>
         </description>
