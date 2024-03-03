@@ -31,4 +31,17 @@
             <set name="rarity">Rare</set>
         </setters>
     </element>
+        <element name="Necrotic Silver Staff" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_NECRO_SILVER_STAFF">
+        <description>
+            <p>A silver staff that gives off a strong dark aura, giving those around a sense of fear.</p>
+            <p>Upon grabbing the staff, an Intelligance Saving Throw must be made. Upon failure, the staff must be dropped out of fear that fills the holder. On success, they'll overcome the fear and begin to give off a dark aura to those around them.</p>
+            <p>If the user continues to hold the staff, they'll become attached to it and not want to let go of it. All spells casted that aren't Necromacy based will be casted with disadvatage, but Necromacy-based spells will get a 1D4 to add to each their rolls, on both attacking, damage, and added to their DC.</p>
+            <p>The user's alignment will begin to shift towards begin evil, solely looking for the benefit of themselves, even at the detriment of their party members. If they try to take thee staff away, the holder will resist.</p>
+        </description>
+        <setters>
+            <set name="category">Custom Equipment</set>
+            <set name="weight" lb="0">5 lb.</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
 </elements>
