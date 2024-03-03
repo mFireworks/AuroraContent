@@ -20,18 +20,20 @@
             <set name="rarity">Rare</set>
         </setters>
     </element>
-    <element name="Fire Wand" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_FIRE_WAND">
+    <element name="Fire Wand" type="Magic Item" source="VC Adventures" id="ID_VC_ADVENTURES_FIRE_WAND">
         <description>
             <p>A silver wand with a red gemstone at the end of it. When equipped, any casted fire-based spells with it will add +1 to damage.</p>
         </description>
         <setters>
-            <set name="category">Custom Equipment</set>
+            <set name="category">Wands</set>
             <set name="cost" currency="gp">100</set>
-            <set name="weight" lb="0">4 lb.</set>
+            <set name="weight" lb="0">2 lb.</set>
             <set name="rarity">Rare</set>
+            <set name="slot">onehand</set>
+            <set name="type">Wand</set>
         </setters>
     </element>
-        <element name="Necrotic Silver Staff" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_NECRO_SILVER_STAFF">
+        <element name="Necrotic Silver Staff" type="Magic Item" source="VC Adventures" id="ID_VC_ADVENTURES_NECRO_SILVER_STAFF">
         <description>
             <p>A silver staff that gives off a strong dark aura, giving those around a sense of fear.</p>
             <p>Upon grabbing the staff, an Intelligance Saving Throw must be made. Upon failure, the staff must be dropped out of fear that fills the holder. On success, they'll overcome the fear and begin to give off a dark aura to those around them.</p>
@@ -39,9 +41,12 @@
             <p>The user's alignment will begin to shift towards begin evil, solely looking for the benefit of themselves, even at the detriment of their party members. If they try to take thee staff away, the holder will resist.</p>
         </description>
         <setters>
-            <set name="category">Custom Equipment</set>
+            <set name="category">Staffs</set>
             <set name="weight" lb="0">5 lb.</set>
             <set name="rarity">Rare</set>
+            <set name="slot">onehand</set>
+            <set name="type">Staff</set>
+            <set name="weapon">Quarterstaff</set>
         </setters>
     </element>
 </elements>
