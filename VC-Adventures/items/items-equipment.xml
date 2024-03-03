@@ -14,7 +14,7 @@
         <setters>
             <set name="category">Custom Equipment</set>
             <set name="cost" currency="gp">75</set>
-            <set name="weight" lb="0">8 lb.</set>
+            <set name="weight" lb="8">8 lb.</set>
             <set name="slot">twohand</set>
             <set name="damage" type="slashing">1d12+1</set>
             <set name="rarity">Rare</set>
@@ -27,7 +27,7 @@
         <setters>
             <set name="category">Wands</set>
             <set name="cost" currency="gp">100</set>
-            <set name="weight" lb="0">2 lb.</set>
+            <set name="weight" lb="2">2 lb.</set>
             <set name="rarity">Rare</set>
             <set name="slot">onehand</set>
             <set name="type">Wand</set>
@@ -42,7 +42,7 @@
         </description>
         <setters>
             <set name="category">Staffs</set>
-            <set name="weight" lb="0">5 lb.</set>
+            <set name="weight" lb="5">5 lb.</set>
             <set name="rarity">Rare</set>
             <set name="slot">onehand</set>
             <set name="type">Staff</set>
