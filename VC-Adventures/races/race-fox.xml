@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Just a Fox</name>
+		<description></description>
+		<author url="https://www.5esrd.com/database/creature/fox/">DnD SRD Wiki</author>
+		<update version="0.0.6">
+			<file name="race-fox.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-fox.xml" />
+		</update>
+	</info>
+
+    <element name="Just a Fox" type="Race" source="VC Adventures" id="ID_RACE_JUST_A_FOX">
+        <description>
+            <p class="flavor">Foxes are renowned as clever animals, able to avoid the hunter’s hounds which seek them for their valuable furs. They are most active at night, but they can also be seen by day. Their tails are always tipped white, while their legs, feet, and tips of the ear are always black. The rest of their coat, however, is varied in color: Most commonly red, silver and platinum foxes are also known.</p>
+
+            <p>For yourself, you've been awakened by a heroic mage who blessed you with the gift of knowledge. Desite parting ways, you explore the land, spreading their name for all to hear.</p>
+
+            <h4>JUST A FOX TRAITS</h4>
+            <p>Literally, just a fox.</p>
+            <p>
+                <span class="feature">Ability Scores.</span>You have the same base stats as a normal fox, but with an intelligence of 10 due to being awakened.<br />
+                <span class="feature">Age.</span>Foxes tend to reach maturity around 10 months of age. Red Foxes tend to live no longer than 4 years. Silver or Platinum Foxes can live up to 6 years.<br />
+                <span class="feature">Alignment.</span>Foxes follow their tendencies for survival, looking after themselves over all else.<br />
+                <span class="feature">Size.</span>Foxes are around 2-3 feet long, and between 6 to 30 pounds. You are Small<br />
+                <span class="feature">Speed.</span>Your base walking speed is 40 feet.<br />
+                <span class="feature">Keen Senses.</span>You have advantage on Perception checks that rely on sight or smell.<br/>
+                <span class="feature">Bite.</span>You can bite your prey. If you hit with them, you deal piercing damage equal to 1d4 + your strength modifier.<br/>
+                <span class="feature">Languages.</span>You can speak and read in one language that your benefactor bestowed upon you. You can attempt to write with your mouth, but may be illegible.<br />
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="1d12">2'</set>
+            <set name="weight" modifier="1d4">6 lb.</set>
+        </setters>
+        <rules>
+            <stat name="innate speed" value="40" bonus="base"/>
+            <grant type="Size" id="ID_SIZE_SMALL" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BITE" />
+        </rules>
+    </element>
+  
+    <element name="Keen Senses" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_KEEN_SENSES">
+        <description>
+            <p>Due to your time surviving in the wild, you've learned to depend on your heightened sense of sight and smell to seek our prey.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Perception checks that rely on sight or smell.</description>
+        </sheet>
+    </element>
+        <element name="Bite" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_BITE">
+        <description>
+            <p>You can bite your prey. If you hit with them, you deal piercing damage equal to 1d4+{{strength:modifier}}.</p>
+        </description>
+        <sheet>
+            <description>You can bite your prey. If you hit with them, you deal piercing damage equal to 1d4+{{strength:modifier}}.</description>
+        </sheet>
+    </element>
+</elements>

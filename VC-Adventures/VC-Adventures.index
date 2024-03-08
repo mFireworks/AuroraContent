@@ -4,18 +4,24 @@
 		<name>VC Adventures</name>
 		<description>Special content for Firework's VC Adventures Campaign</description>
 		<author>Fireworks</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="VC-Adventures.index" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/VC-Adventures.index" />
 		</update>
 	</info>
 	<files>	
 		<!-- races -->
+		<file name="race-fairy.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-fairy.xml" />
+		<file name="race-fox.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-fox.xml" />
+		<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-kitsune.xml" />
 		<file name="race-owlfolk.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-owlfolk.xml" />
 
 		<!-- classes -->
 
-		<!-- backgrounds -->		
-		<file name="background-acolyte.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/backgrounds/background-street-performer.xml" />
+		<!-- archetypes -->
+		<file name="druid-wildfire.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/archetypes/druid-wildfire.xml" />
+
+		<!-- backgrounds -->
+		<file name="background-street-performer.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/backgrounds/background-street-performer.xml" />
 
 		<!-- items -->
 		<file name="items-crafted.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-crafted.xml" />
