@@ -49,11 +49,6 @@
             </p>
         </description>
         <sheet display="false" />
-        <setters>
-            <set name="names">Aisiri, Akane, Akemi, Akio, Amaterasu, Ashinsen, Ayame, Bemei, Chieko, Chinatsu, Dai, Daisuke, Dawn, Domino, Eiji, Emiko, Fujin, Fumio, Gina, Genji, Hachiman, Hanako, Haruhi, Haruka, Haruki, Hisashi, Hikari, Hyosuki, Ichiro, Ikumi, Inari, Jiro, Jun, Junko, Kaede, Kaeya, Kameko, Kaida, Kaito, Katsumi, Kenji, Kiku, Kimiko, Kin, Kiyoko, Kiyoshi, Koji, Kou, Makato, Maki, Masanori, Masaru, Masayoshi, Michi, Michio, Midori, Minako, Minoru, Mokei, Naoki, Natsumi, Nariyama, Nimiaki, Nonabu, Osamu, Ren, Ryo, Ryuu, Sakura, Sayuri, Satoru, Shinichi, Tadao, Tadashi, Takumi, Takeshi, Tomio, Toshiaki, Tsuneo, Tsuyoshi, Yori, Yuki, Yuji, Yumi, Zenkichi</set>
-            <set name="names-format">{{name}}</set>
-            <set name="height" modifier="1d12">5'</set>
-        </setters>
         <rules>
             <stat name="charisma" value="1" />
             <stat name="dexterity" value="1" />
@@ -75,7 +70,7 @@
         <description>
             <p>You can transform between fox and human form at will. In combat, this takes an action. Human form can look any way you desire, gender being the same as your chosen gender. You may speak as normal and use kitsune magic while in fox form. When changing to fox form, all Armour falls to the ground, when changing to human, you appear wearing a conjured set of clothing.</p>
         </description>
-        <sheet display="false">
+        <sheet>
             <description>You can transform between fox and human form at will. In combat, this takes an action. You may speak as normal and use kitsune magic while in fox form. When changing to fox form, all Armour falls to the ground, when changing to human, you appear wearing a conjured set of clothing.</description>
         </sheet>
     </element>
@@ -98,11 +93,12 @@
     <element name="Kitsune Magic" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_KITSUNE_MAGIC">
         <description>
             <p>You Know the Dancing Lights and Produce Flame.
-                    <ul>
-                        <li>Once you reach 3rd level, you can cast Charm person once per long rest as a 2nd level spell.</li>
-                        <li>Once you reach 5th level, you can also cast Invisibility as a 3rd level spell once per long rest.</li>
-                        <li>Charisma is your spellcasting ability for these spells.</li>
-                    </ul></p>
+                <ul>
+                    <li>Once you reach 3rd level, you can cast Charm person once per long rest as a 2nd level spell.</li>
+                    <li>Once you reach 5th level, you can also cast Invisibility as a 3rd level spell once per long rest.</li>
+                    <li>Charisma is your spellcasting ability for these spells.</li>
+                </ul>
+            </p>
         </description>
         <sheet>
             <description>As you grow as a Kitsune, you'll gain access to different spells.</description>
