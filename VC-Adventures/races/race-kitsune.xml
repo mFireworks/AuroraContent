@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-    <element name="Kitsune" type="Race" source="VC Adventures" id="ID_RACE_KITSUNE">
+    <element name="Kitsune" type="Race" source="VC Adventures" id="ID_RACE_VC_KITSUNE">
         <description>
             <h4>PHYSICAL DESCRIPTION</h4>
             <p>Physically, kitsune are noted for having as many as nine tails. Generally, a greater number of tails indicates an older and or more powerful fox. To most people kitsune look like normal foxes but slightly bigger or large like a dog, but more magically attuned. They can see that they have unique colored markings on their body. In human form they look like any other human but they have the ears and tail(s) of their fox form, they can choose to hide the ears and tail(s) if they wish.</p>
@@ -61,7 +61,6 @@
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <grant type="Vision" id="ID_VISION_DARKVISION" />
             <grant type="Language" id="ID_LANGUAGE_COMMON"/>
-            <grant type="Language" id="ID_LANGUAGE_SYLVAN"/>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_TRUE_FORM" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_BITE" />
