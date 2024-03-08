@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-    <element name="Fairy" type="Race" source="VC Adventures" id="ID_RACE_VC_ADVENTURES_FAIRY">
+    <element name="Fairy" type="Race" source="VC Adventures" id="ID_RACE_FAIRY">
         <description>
             <p>The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends. The first fairies spoke Elvish, Goblin, or Sylvan, and encounters with human visitors prompted many of them to learn Common as well.</p>
 
@@ -37,12 +37,12 @@
             <stat name="innate speed" value="30" bonus="base"/>
             <grant type="Size" id="ID_SIZE_SMALL" />
             <grant type="Language" id="ID_LANGUAGE_COMMON"/>
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_FAIRY_MAGIC" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_FLIGHT" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FAIRY_MAGIC" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLIGHT" />
         </rules>
     </element>
   
-    <element name="Fairy Magic" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_VC_FAIRY_MAGIC">
+    <element name="Fairy Magic" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_FAIRY_MAGIC">
         <description>
             <p>Due to your fey heritage, you gain various different spells are your connection to the Feywild grows.</p>
             <p>You know the Druidcraft cantrip.<ul>
@@ -63,7 +63,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_ENLARGE_REDUCE" level="5"/>
         </rules>
     </element>
-    <element name="Flight" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_VC_FLIGHT">
+    <element name="Flight" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_FLIGHT">
         <description>
             <p>Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>
         </description>

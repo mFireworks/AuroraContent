@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-    <element name="Kitsune" type="Race" source="VC Adventures" id="ID_RACE_VC_KITSUNE">
+    <element name="Kitsune" type="Race" source="VC Adventures" id="ID_RACE_KITSUNE">
         <description>
             <h4>PHYSICAL DESCRIPTION</h4>
             <p>Physically, kitsune are noted for having as many as nine tails. Generally, a greater number of tails indicates an older and or more powerful fox. To most people kitsune look like normal foxes but slightly bigger or large like a dog, but more magically attuned. They can see that they have unique colored markings on their body. In human form they look like any other human but they have the ears and tail(s) of their fox form, they can choose to hide the ears and tail(s) if they wish.</p>
@@ -63,15 +63,15 @@
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_TRUE_FORM" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_BITE" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_CLAW" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_MAGIC" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_TAILS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_TRUE_FORM" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_BITE" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_CLAW" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_MAGIC" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_TAILS" />
         </rules>
     </element>
   
-    <element name="True Form" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_VC_KITSUNE_TRUE_FORM">
+    <element name="True Form" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_KITSUNE_TRUE_FORM">
         <description>
             <p>You can transform between fox and human form at will. In combat, this takes an action. Human form can look any way you desire, gender being the same as your chosen gender. You may speak as normal and use kitsune magic while in fox form. When changing to fox form, all Armour falls to the ground, when changing to human, you appear wearing a conjured set of clothing.</p>
         </description>
@@ -79,7 +79,7 @@
             <description>You can transform between fox and human form at will. In combat, this takes an action. You may speak as normal and use kitsune magic while in fox form. When changing to fox form, all Armour falls to the ground, when changing to human, you appear wearing a conjured set of clothing.</description>
         </sheet>
     </element>
-    <element name="Kitsune Bite" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_VC_KITSUNE_BITE">
+    <element name="Kitsune Bite" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_KITSUNE_BITE">
         <description>
             <p>In fox form, Kitsune has a bite attack that deals 1d6 piercing damage to their target.</p>
         </description>
@@ -87,7 +87,7 @@
             <description>In fox form, Kitsune has a bite attack that deals 1d6 piercing damage to their target.</description>
         </sheet>
     </element>
-    <element name="Kitsune Claws" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_VC_KITSUNE_CLAW">
+    <element name="Kitsune Claws" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_KITSUNE_CLAW">
         <description>
             <p>In fox form, Kitsune has a claw attack that deals 1d6 piercing or slashing damage to their target depending how the kitsune would use their claws. Example: The kistune would jump on the target digging there claws into the target = 1d6 piercing damage. The kistune would get to the target and would hit the target = 1d6 slashing damage</p>
         </description>
@@ -95,7 +95,7 @@
             <description>In fox form, Kitsune has a claw attack that deals 1d6 piercing or slashing damage to their target depending how the kitsune would use their claws.</description>
         </sheet>
     </element>
-    <element name="Kitsune Magic" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_VC_KITSUNE_MAGIC">
+    <element name="Kitsune Magic" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_KITSUNE_MAGIC">
         <description>
             <p>You Know the Dancing Lights and Produce Flame.
                     <ul>
@@ -114,7 +114,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5"/>
         </rules>
     </element>
-    <element name="Kitsune Tails" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_VC_KITSUNE_TAILS">
+    <element name="Kitsune Tails" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_KITSUNE_TAILS">
         <description>
             <p>You gain more tails as you gain more power starting with a second tail at level 4 you gain 1 tail every 2 levels until level 18.</p>
         </description>
