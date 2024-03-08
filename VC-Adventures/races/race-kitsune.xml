@@ -63,7 +63,7 @@
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_TRUE_FORM" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRUE_FORM" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_BITE" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_CLAW" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_MAGIC" />
@@ -71,7 +71,7 @@
         </rules>
     </element>
   
-    <element name="True Form" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_KITSUNE_TRUE_FORM">
+    <element name="True Form" type="Racial Trait" source="VC Adventures" id="ID_RACIAL_TRAIT_TRUE_FORM">
         <description>
             <p>You can transform between fox and human form at will. In combat, this takes an action. Human form can look any way you desire, gender being the same as your chosen gender. You may speak as normal and use kitsune magic while in fox form. When changing to fox form, all Armour falls to the ground, when changing to human, you appear wearing a conjured set of clothing.</p>
         </description>
