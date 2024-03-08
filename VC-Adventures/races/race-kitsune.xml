@@ -55,13 +55,13 @@
             <set name="height" modifier="1d12">5'</set>
         </setters>
         <rules>
-            <stat name="charisma" value="1"/>
-            <stat name="dexterity" value="1"/>
-            <stat name="innate speed" value="30" bonus="base"/>
+            <stat name="charisma" value="1" />
+            <stat name="dexterity" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <grant type="Vision" id="ID_VISION_DARKVISION" />
-            <grant type="Language" id="ID_LANGUAGE_COMMON"/>
-            <grant type="Language" id="ID_LANGUAGE_SYLVAN"/>
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_TRUE_FORM" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VC_KITSUNE_BITE" />
