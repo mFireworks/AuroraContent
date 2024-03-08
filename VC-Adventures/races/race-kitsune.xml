@@ -5,11 +5,11 @@
 		<description></description>
 		<author url="https://www.dandwiki.com/wiki/Kitsune,_9th_Variant_(5e_Race)">DnD 5E Homebrew Wiki</author>
 		<update version="0.0.6">
-			<file name="race-owlfolk.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-kitsune.xml" />
+			<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-kitsune.xml" />
 		</update>
 	</info>
 
-    <element name="Kitsure" type="Race" source="VC Adventures" id="ID_RACE_KITSUNE">
+    <element name="Kitsune" type="Race" source="VC Adventures" id="ID_RACE_KITSUNE">
         <description>
             <h4>PHYSICAL DESCRIPTION</h4>
             <p>Physically, kitsune are noted for having as many as nine tails. Generally, a greater number of tails indicates an older and or more powerful fox. To most people kitsune look like normal foxes but slightly bigger or large like a dog, but more magically attuned. They can see that they have unique colored markings on their body. In human form they look like any other human but they have the ears and tail(s) of their fox form, they can choose to hide the ears and tail(s) if they wish.</p>
