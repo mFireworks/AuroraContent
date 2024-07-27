@@ -33,7 +33,7 @@
             <set name="type">Wand</set>
         </setters>
     </element>
-        <element name="Necrotic Silver Staff" type="Magic Item" source="VC Adventures" id="ID_VC_ADVENTURES_NECRO_SILVER_STAFF">
+    <element name="Necrotic Silver Staff" type="Magic Item" source="VC Adventures" id="ID_VC_ADVENTURES_NECRO_SILVER_STAFF">
         <description>
             <p>A silver staff that gives off a strong dark aura, giving those around a sense of fear.</p>
             <p>Upon grabbing the staff, an Intelligance Saving Throw must be made. Upon failure, the staff must be dropped out of fear that fills the holder. On success, they'll overcome the fear and begin to give off a dark aura to those around them.</p>
@@ -47,6 +47,19 @@
             <set name="slot">onehand</set>
             <set name="type">Staff</set>
             <set name="weapon">Quarterstaff</set>
+        </setters>
+    </element>
+    <element name="Shattertip Arrow" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_SHATTERTIP_ARROW">
+        <description>
+            <p>A 4-pronged arrow made of a white stone. The tip of the arrow seems study, but many cracks encompass the tip. Upon impact, the head of the arrow will shatter, dealing additional shrapnel damage to the target. Additional 1D4 on damage.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="cost" currency="gp">1</set>
+            <set name="weight" lb="0.05">1/20 lb.</set>
+            <set name="rarity">Rare</set>
+            <set name="type">Ammunition</set>
+            <set name="stackable">true</set>
         </setters>
     </element>
 </elements>
