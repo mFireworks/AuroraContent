@@ -4,7 +4,7 @@
 		<name>Kitsune</name>
 		<description></description>
 		<author url="https://www.dandwiki.com/wiki/Kitsune,_9th_Variant_(5e_Race)">DnD 5E Homebrew Wiki</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-kitsune.xml" />
 		</update>
 	</info>
