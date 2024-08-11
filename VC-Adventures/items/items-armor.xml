@@ -8,6 +8,7 @@
     </info>
 
     <element name="Cleric Robes" type="Armor" source="VC Adventures" id="ID_VC_ADVENTURES_CLERIC_ROBES">
+        <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
         <description>
             <p>White Robes with gold detailing along it all, depicting the warm grace of a cleric's god. All healing spells casted by the wearer get an additional heal. Along with whatever the spell says, add your spellcasting ability modifier. Example: If a cleric with a +2 in Wisdom is wearing these robes, their healing will get an additional +2, as Wisdom is their spellcasting ability, and +2 is their modifier for Wisdom.</p>
         </description>
