@@ -24,6 +24,7 @@
 		<file name="background-street-performer.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/backgrounds/background-street-performer.xml" />
 
 		<!-- items -->
+		<file name="items-armor.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-armor.xml" />
 		<file name="items-crafted.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-crafted.xml" />
 		<file name="items-equipment.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-equipment.xml" />
 		<file name="items-food.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-food.xml" />
