@@ -51,5 +51,15 @@
             <set name="rarity">Uncommon</set>
         </setters>
     </element>
-    
+    <element name="Vial of Baskilist Fluid" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_BASKILIST_FLUID">
+        <description>
+            <p>A vial of processed fluids of a Baskilist's Gullet. Exposing petrified creatures to the substance will remove the petrification.</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="gp">50</set>
+            <set name="weight" lb="8">0.01 lb.</set>
+            <set name="rarity">Rare</set>
+        </setters>
+    </element>
 </elements>
