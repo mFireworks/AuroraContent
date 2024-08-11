@@ -21,5 +21,8 @@
             <set name="armorClass">10 + Dex Modifier</set>
             <set name="rarity">Rare</set>
         </setters>
+        <rules>
+            <stat name="ac:armored:armor" value="10"/>
+        </rules>
     </element>
 </elements>
