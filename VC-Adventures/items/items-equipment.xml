@@ -92,7 +92,7 @@
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
         </setters>
     </element>
-        <element name="Shortsword" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_BLACKSTEEL_SHORTSWORD">
+    <element name="Blacksteel Shortsword" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_BLACKSTEEL_SHORTSWORD">
         <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
         <description>
             <p>A Shortsword made out of Blacksteel, a rare type of alloy made by the Metalfury Dwarves. Has the same weight as steel weapons, but it's sharpness is enough to cut softer metals.</p>
