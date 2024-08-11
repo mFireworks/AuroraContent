@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Extra Potions</name>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="items-potions.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-potions.xml" />
         </update>
     </info>
@@ -38,6 +38,17 @@
             <set name="cost" currency="gp">50</set>
             <set name="weight" lb="8">0 lb.</set>
             <set name="rarity">Common</set>
+        </setters>
+    </element>
+        <element name="Potion of Mana" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_MANA_POTION">
+        <description>
+            <p>A blue liquid contained in a glass bottle. It has a sour scent and exudes magic from itself. Upon drinking, gain 1 temporary Level 2 Spell Slot. It lasts for 1 hour.</p>
+        </description>
+        <setters>
+            <set name="category">Potions</set>
+            <set name="cost" currency="gp">200</set>
+            <set name="weight" lb="8">0 lb.</set>
+            <set name="rarity">Uncommon</set>
         </setters>
     </element>
 </elements>

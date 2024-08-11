@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Custom Equipment</name>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="items-equipment.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-equipment.xml" />
         </update>
     </info>
@@ -60,6 +60,50 @@
             <set name="rarity">Rare</set>
             <set name="type">Ammunition</set>
             <set name="stackable">true</set>
+        </setters>
+    </element>
+        <element name="Blacksteel Rapier" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_BLACKSTEEL_RAPIER">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+        <description>
+            <p>A Raiper made out of Blacksteel, a rare type of alloy made by the Metalfury Dwarves. Has the same weight as steel weapons, but it's sharpness is enough to cut softer metals.</p>
+        </description>
+        <setters>
+            <set name="category">Custom Equipment</set>
+            <set name="cost" currency="gp">150</set>
+            <set name="weight" lb="4">4 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d10</set>
+            <set name="rarity">Rare</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+        </setters>
+    </element>
+    <element name="Blacksteel Dagger" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_BLACKSTEEL_DAGGER">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+        <description>
+            <p>A Dagger made out of Blacksteel, a rare type of alloy made by the Metalfury Dwarves. Has the same weight as steel weapons, but it's sharpness is enough to cut softer metals.</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">100</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="range">20/60</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+        </setters>
+    </element>
+        <element name="Shortsword" type="Weapon" source="VC Adventures" id="ID_VC_ADVENTURES_BLACKSTEEL_SHORTSWORD">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+        <description>
+            <p>A Shortsword made out of Blacksteel, a rare type of alloy made by the Metalfury Dwarves. Has the same weight as steel weapons, but it's sharpness is enough to cut softer metals.</p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">140</set>
+            <set name="weight" lb="2">2 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
         </setters>
     </element>
 </elements>
