@@ -4,7 +4,7 @@
 		<name>VC Adventures</name>
 		<description>Special content for Firework's VC Adventures Campaign</description>
 		<author>Fireworks</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="VC-Adventures.index" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures.index"/>
 		</update>
 	</info>

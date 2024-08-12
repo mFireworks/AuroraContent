@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Loot Items</name>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="items-loot.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-loot.xml" />
         </update>
     </info>
@@ -60,6 +60,17 @@
             <set name="cost" currency="gp">50</set>
             <set name="weight" lb="8">0.01 lb.</set>
             <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Treasure Orb" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_TREASURE_ORB">
+        <description>
+            <p>A blue orb filled with some unknown magic. It seemingly starts pulsating a blue-ish glow when there's unexplored areas within a dungeon.</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="gp">1000</set>
+            <set name="weight" lb="2">2 lb.</set>
+            <set name="rarity">Legendary</set>
         </setters>
     </element>
 </elements>

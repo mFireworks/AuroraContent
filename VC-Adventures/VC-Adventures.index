@@ -4,7 +4,7 @@
 		<name>VC Adventures</name>
 		<description>Special content for Firework's VC Adventures Campaign</description>
 		<author>Fireworks</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="VC-Adventures.index" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/VC-Adventures.index" />
 		</update>
 	</info>
@@ -28,6 +28,7 @@
 		<file name="items-crafted.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-crafted.xml" />
 		<file name="items-equipment.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-equipment.xml" />
 		<file name="items-food.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-food.xml" />
+		<file name="items-gear.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-gear.xml" />
 		<file name="items-loot.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-loot.xml" />
 		<file name="items-potions.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-potions.xml" />
 

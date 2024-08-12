@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Crafted Items</name>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="items-crafted.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-crafted.xml" />
         </update>
     </info>

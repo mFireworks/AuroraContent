@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Custom Gear</name>
+        <update version="0.0.9">
+            <file name="items-dear.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-gear.xml" />
+        </update>
+    </info>
+
+    <element name="Maid Uniform" type="Item" source="VC Adventurers" id="ID_VC_ADVENTURERS_MAID_UNIFORM">
+        <description>
+            <p>A black dress with white trim, ending right above the knees. A ruffled white half-apron hangs in front. White ruffled headpiece, stockings, and black high heels. Many nobles have their female servants wearing these uniforms, traditionally from the high dukes of the Ayari Plains.</p>
+        </description>
+        <setters>
+            <set name="category">Clothing</set>
+            <set name="cost" currency="gp">5</set>
+            <set name="weight" lb="4">3 lb.</set>
+        </setters>
+    </element>
+    <element name="Butler Uniform" type="Item" source="VC Adventurers" id="ID_VC_ADVENTURERS_BUTLER_UNIFORM">
+        <description>
+            <p>A typical suit consisting of a waistcoat, grey or grey striped trousers, a white dress shirt, and a black or grey tie. Many nobles have their male servants wearing these uniforms, traditionally from the high dukes of the Ayari Plains.</p>
+        </description>
+        <setters>
+            <set name="category">Clothing</set>
+            <set name="cost" currency="gp">5</set>
+            <set name="weight" lb="4">4 lb.</set>
+        </setters>
+    </element>
+    <element name="Bunnysuit Outfit" type="Item" source="VC Adventurers" id="ID_VC_ADVENTURERS_BUNNYSUIT">
+        <description>
+            <p>A combination of a high-leg type Leotard-like costume without shoulder straps, a hair band imitating Rabbit's ears, a cufflink, a collar type choker, and a bow tie. Sme enterainers would wear these outfits to appeal to male-majority crowds, both publicly and privately.</p>
+        </description>
+        <setters>
+            <set name="category">Clothing</set>
+            <set name="cost" currency="gp">4</set>
+            <set name="weight" lb="4">1 lb.</set>
+        </setters>
+    </element>
+</elements>

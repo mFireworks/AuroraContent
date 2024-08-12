@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Custom Equipment</name>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="items-equipment.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-equipment.xml" />
         </update>
     </info>
