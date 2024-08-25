@@ -4,7 +4,7 @@
 		<name>Fairy</name>
 		<description></description>
 		<author url="http://dnd5e.wikidot.com/lineage:fairy">Mordenkainen Presents: Monsters of the Multiverse</author>
-		<update version="0.0.9">
+		<update version="0.1.0">
 			<file name="race-fairy.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-fairy.xml" />
 		</update>
 	</info>

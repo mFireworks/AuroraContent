@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Food Items</name>
-        <update version="0.0.9">
+        <update version="0.1.0">
             <file name="items-food.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-food.xml" />
         </update>
     </info>
@@ -15,6 +15,28 @@
             <set name="category">Food</set>
             <set name="cost" currency="sp">10</set>
             <set name="weight" lb="1">1 lb.</set>
+            <set name="rarity">Common</set>
+        </setters>
+    </element>
+    <element name="Mossberry" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_MOSSBERRY">
+        <description>
+            <p>Small green grape-like berries that grow off of mossy patches of moss. Known as "Survival Grapes" by adventurers, as they provide no real taste, but keeps one full in a pinch. When found in the wild, usually it's a sign that the moss has been undisturbed for a long time.</p>
+        </description>
+        <setters>
+            <set name="category">Food</set>
+            <set name="cost" currency="sp">1</set>
+            <set name="weight" lb="0.01">0.01 lb.</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+    <element name="Peach Apple" type="Item" source="VC Adventures" id="ID_VC_PEACH_APPLE">
+        <description>
+            <p>A fusion between a peach and an apple. Has the exterior look of an apple, but has the soft, redish meat of a peach on the inside. Peach Apple Cider is a common drink is Eastern Asina.</p>
+        </description>
+        <setters>
+            <set name="category">Food</set>
+            <set name="cost" currency="sp">5</set>
+            <set name="weight" lb="0.1">0.1 lb.</set>
             <set name="rarity">Common</set>
         </setters>
     </element>

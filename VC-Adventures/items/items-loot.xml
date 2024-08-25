@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Loot Items</name>
-        <update version="0.0.9">
+        <update version="0.1.0">
             <file name="items-loot.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-loot.xml" />
         </update>
     </info>
@@ -25,7 +25,7 @@
         <setters>
             <set name="category">Loot</set>
             <set name="cost" currency="gp">0</set>
-            <set name="weight" lb="8">0.25 lb.</set>
+            <set name="weight" lb="0.25">0.25 lb.</set>
             <set name="rarity">Common</set>
         </setters>
     </element>
@@ -36,7 +36,7 @@
         <setters>
             <set name="category">Loot</set>
             <set name="cost" currency="gp">0</set>
-            <set name="weight" lb="8">0.01 lb.</set>
+            <set name="weight" lb="0.01">0.01 lb.</set>
             <set name="rarity">Common</set>
         </setters>
     </element>
@@ -47,7 +47,7 @@
         <setters>
             <set name="category">Loot</set>
             <set name="cost" currency="gp">0</set>
-            <set name="weight" lb="8">0.01 lb.</set>
+            <set name="weight" lb="0.01">0.01 lb.</set>
             <set name="rarity">Uncommon</set>
         </setters>
     </element>
@@ -58,13 +58,24 @@
         <setters>
             <set name="category">Loot</set>
             <set name="cost" currency="gp">50</set>
-            <set name="weight" lb="8">0.01 lb.</set>
+            <set name="weight" lb="0.01">0.01 lb.</set>
             <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Skull" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_SKULL">
+        <description>
+            <p>A skull of some unfortanute skeleton...</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="sp">20</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="rarity">Common</set>
         </setters>
     </element>
     <element name="Treasure Orb" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_TREASURE_ORB">
         <description>
-            <p>A blue orb filled with some unknown magic. It seemingly starts pulsating a blue-ish glow when there's unexplored areas within a dungeon.</p>
+            <p>A blue orb with gold leaflets attached to all its sides, filled with some unknown magic. It seemingly starts pulsating a blue-ish glow when there's unexplored areas within a dungeon.</p>
         </description>
         <setters>
             <set name="category">Loot</set>
