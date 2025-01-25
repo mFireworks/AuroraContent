@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Custom Equipment</name>
-        <update version="0.1.0">
+        <update version="0.1.1">
             <file name="items-equipment.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-equipment.xml" />
         </update>
     </info>
@@ -104,6 +104,23 @@
             <set name="slot">onehand</set>
             <set name="damage" type="piercing">1d8</set>
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+        </setters>
+    </element>
+    <element name="Vine Staff" type="Magic Item" source="VC Adventures" id="ID_VC_ADVENTURES_VINE_STAFF">
+        <description>
+            <p>A wooden staff with a vine-like, green accent wrapping its way up the staff.</p>
+            <p class="indent">When attuned, grants the ability to cast the Thorn Whip cantrip once per short rest.<p>
+        </description>
+        <setters>
+            <set name="keywords">bard, cleric, druid, sorcerer, warlock, wizard</set>
+            <set name="category">Staffs</set>
+            <set name="cost" currency="gp">35</set>
+            <set name="weight" lb="4">4 lb.</set>
+            <set name="type">Staff</set>
+            <set name="attunement" addition="by a bard, cleric, druid, sorcerer, warlock, or wizard">true</set>
+            <set name="rarity">Uncommon</set>
+            <set name="slot">onehand</set>
+            <set name="weapon">Quarterstaff</set>
         </setters>
     </element>
 </elements>

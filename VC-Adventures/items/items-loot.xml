@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Loot Items</name>
-        <update version="0.1.0">
+        <update version="0.1.1">
             <file name="items-loot.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-loot.xml" />
         </update>
     </info>
@@ -82,6 +82,17 @@
             <set name="cost" currency="gp">1000</set>
             <set name="weight" lb="2">2 lb.</set>
             <set name="rarity">Legendary</set>
+        </setters>
+    </element>
+        <element name="Magic Doorknob" type="Item" source="VC Adventures" id="ID_VC_ADVENTURES_MAGIC_DOORKNOB">
+        <description>
+            <p>A standalone doorknob with a pure black backing. Seems to stick to surfaces when place upon them, acts like an attachable second doorknob to doors. Doesn't bypass deadbolts.</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="gp">150</set>
+            <set name="weight" lb="2">1 lb.</set>
+            <set name="rarity">Rare</set>
         </setters>
     </element>
 </elements>
