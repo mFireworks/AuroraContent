@@ -4,7 +4,7 @@
 		<name>Just a Fox</name>
 		<description></description>
 		<author url="https://www.5esrd.com/database/creature/fox/">DnD SRD Wiki</author>
-		<update version="0.1.1">
+		<update version="0.1.1.1">
 			<file name="race-fox.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-fox.xml" />
 		</update>
 	</info>

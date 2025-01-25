@@ -4,7 +4,7 @@
         <name>Owlfolk</name>
         <description></description>
         <author url="https://www.dandwiki.com/wiki/Owlfolk_(5e_Race)">DnD 5E Homebrew Wiki</author>
-        <update version="0.1.1">
+        <update version="0.1.1.1">
             <file name="race-owlfolk.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/races/race-owlfolk.xml" />
         </update>
     </info>

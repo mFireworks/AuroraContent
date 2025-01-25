@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Custom Gear</name>
-        <update version="0.1.1">
+        <update version="0.1.1.1">
             <file name="items-dear.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-gear.xml" />
         </update>
     </info>
