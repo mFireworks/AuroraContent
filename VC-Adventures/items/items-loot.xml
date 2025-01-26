@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Loot Items</name>
-        <update version="0.1.1.1">
+        <update version="0.1.2">
             <file name="items-loot.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-loot.xml" />
         </update>
     </info>
@@ -93,6 +93,17 @@
             <set name="cost" currency="gp">150</set>
             <set name="weight" lb="2">1 lb.</set>
             <set name="rarity">Rare</set>
+        </setters>
+    </element>
+    <element name="Bonded Scrolls" type="Item" source="VC Adventures" id="ID_VC_BONDED_SCROLLS">
+        <description>
+            <p>A pair of scrolls tied together with some red string. The edges of the scrolls are lined with red wax. When anything happens to one of the scrolls physically or magically, it'll also happen to other scroll within the pair.</p>
+        </description>
+        <setters>
+            <set name="category">Loot</set>
+            <set name="cost" currency="sp">50</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="rarity">Uncommon</set>
         </setters>
     </element>
 </elements>

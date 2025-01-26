@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Food Items</name>
-        <update version="0.1.1.1">
+        <update version="0.1.2">
             <file name="items-food.xml" url="https://raw.githubusercontent.com/mFireworks/AuroraContent/main/VC-Adventures/items/items-food.xml" />
         </update>
     </info>
